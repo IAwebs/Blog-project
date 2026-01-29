@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const BaseUrl='http://localhost:5000'
+export const BaseUrl='https://blog-project-9zgg.vercel.app/'
 const instance = axios.create({
     baseURL:BaseUrl,
     // headers: {
